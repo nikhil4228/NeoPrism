@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/css/modern-business.css" rel="stylesheet" />
+<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+<h2>Solutions</h2>
+
+<div class="container">
+    <!-- Marketing Icons Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Welcome to solutions
+            </h1>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><strong>It Consulting</strong></h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/Mainframe.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Business Intelligence and<br /> Data  Warehousing</li>
+                        <li>ERP</li>
+                        <li>Application Development</li>
+                        <li>Application Packaging & <br />Virtualization</li>
+                    </ul>
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("ItConsulting","Solutions")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><strong>Business Consulting</strong> </h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/business.jpg" alt="">
+                    </div>
+                    <p>
+                        Business Consulting has a tremendous potential for helping both public and private sector organizations. It has already shown value in many areas of the business and promises to show increased value throughout the business as it matures. It is the primary support for developing an intelligent learning organization.
+                    </p>
+                    
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("BussinessConsulting","Solutions")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><strong>Life Sciences</strong></h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/lifesciences.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Health Care</li>
+                        <li>Computer Validation </li>
+                        <li>Regulatory Authorities</li>
+                        <li>LIMS</li>
+                        <li>Technical Writers</li>
+                        <li>Lab Technicians</li>
+                    </ul>
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("LifeSciencesComputerValidation","Solutions")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><strong>Application Development</strong></h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/application-development.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Retail and Manufacturing</li>
+                        <li>Telecommunications and <br />Media</li>
+                        <li>Software</li>
+                        <li>Banking and Financial <br /> Services</li>
+                        <li>Government Sector</li>
+                        <li>Utilities</li>
+                    </ul>
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("ApplicationDevelopment","Solutions")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="../scripts/jquery-1.10.2.min.js"></script>
+<script src="../scripts/bootstrap.min.js"></script>

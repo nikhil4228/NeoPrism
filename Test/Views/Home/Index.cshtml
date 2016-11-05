@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<link href="../css/modern-business.css" rel="stylesheet" />
+<link href="../css/bootstrap.min.css" rel="stylesheet" />
+<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Welcome to Neo Prism
+            </h1>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><strong>About Us</strong> </h4>
+                </div>
+                
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/Home Images/prism.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Neo Prism strives to provide Proactive, Reliable, Innovative, Sustainable and Meticulous IT and Business solutions. Neo Prism has attracted best talent in the industry through its associate friendly culture. The company primarily focuses on Business Intelligence & Data Ware housing, Data base Management Systems, Application Packaging and Virtualization . </p>
+                    </div>
+                    @*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*@                  
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("Index", "AboutUs")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4><strong></strong> Solutions</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" style="width: 100%" src="~/Images/Home Images/solutionsimg.png" alt="">
+                    </div>
+                    <div>
+                        <p >Neo Prism Solutions provides assistance on a wide variety of Data Architecture, ETL, Business Intelligence, DBMS and MDM applications. We assist our clients in choosing the right tools, infrastructure deployment,&nbsp;&nbsp;&nbsp;&nbsp; framework architecture,&nbsp;&nbsp;&nbsp;&nbsp; development, implementation, maintenance and support. We assist our client in all stages of the software SDLC process with the help of our highly qualified.</p>
+                    </div>
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("Index", "Solutions")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>Carrers</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/Home Images/3d_man_climbing_ladder_for_reaching_on_goal_stock_photo_Slide01.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Neo Prism Solutions , Inc is dedicated to identify, recruit, train and retain some of the best technical talents in the industry. Owing to our approach of sharing the success and nurturing talents in an environment that encourages free and open exchange of thoughts, we have become one of the most revered names amongst IT professionals in the industry. Focusing on achieving only the best results</p>
+                    </div>
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="@Url.Action("Index", "Carrers")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>Clients</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="well">
+                        <img class="img-responsive img-rounded" src="~/Images/Home Images/100pro_puzzle.png" alt="">
+                    </div>
+                    <div>
+                        <p>NeoPrism Solutions is one of the prime companies offering a comprehensive array of solutions to the clients located across the world. We understand the requirements of clients that are why we offer the best solutions without compromising on quality under any circumstances. Whether it is a small firm or multibillion dollar company, we exactly know what suits them the best. We deliver 100% Saticfaction for clients.</p>
+                    </div>
+                </div>
+                <div class="panel-footer" style="text-align:right">
+                    <a href="*@Url.Action("Index", "Clients")" class="btn btn-primary">More....</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../scripts/jquery-1.10.2.min.js"></script>
+<script src="../scripts/bootstrap.min.js"></script>
