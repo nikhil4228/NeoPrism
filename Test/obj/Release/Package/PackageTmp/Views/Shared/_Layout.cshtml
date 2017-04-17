@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Neo Prism Solutions</title>
+    <link rel="Neo Prism icon" href="~/Images/logo.png" type="image/png">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .carosalcolor {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="@Url.Action("Index","Home")" style="text-align:left" alt="Logo">
+                        <div class="well" style="height:60px">
+                            <img class="img img-responsive" style="height:45px" src="~/Images/logo.png" />
+                        </div>
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+
+                        </li>
+                        <li>
+                            <a href="~/home/index">Home </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("CompanyOverview","AboutUs")">Company Overview</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("MissionVision","AboutUs")">Mission/Vision</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Values","AboutUs")">Values</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="@Url.Action("Index","Solutions")" class="dropdown-toggle" data-toggle="dropdown">Solutions <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("ItConsulting","Solutions")">It Consulting</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("BussinessConsulting","Solutions")">Business Consulting</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("LifeSciencesComputerValidation","Solutions")">Life Sciences/Computer System Validation</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("ApplicationDevelopment","Solutions")">Application Developement</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="@Url.Action("Index","Carrers")" class="dropdown-toggle" data-toggle="dropdown"> Carrers<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("TrainingProgram", "Carrers")">Training Program</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("WhatWeOffer", "Carrers")">What We Offer</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("EmployeeReferal", "Carrers")">Employee Referal</a>
+                                </li>
+                                @*<li>
+                                        <a href="@Url.Action("CurrentOpenings", "Carrers")">Current </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("LabourConditionApplication", "Carrers")">Labour condition Application</a>
+                                    </li>*@
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="@Url.Action("Index","Clients")" class="dropdown-toggle" data-toggle="dropdown">Clients <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("OurClients","Clients")">Our clients</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("OurPartners","Clients")">Our Partners</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index","ContactUs")">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="https://login.yahoo.com/config/login_verify2?&.src=ym" target="_blank">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+            <li data-target="#myCarousel" data-slide-to="10"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (24).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Office</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (25).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Team Work</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (26).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Opportunity</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (27).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Carrers</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (28).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Development</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (29).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Target</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (30).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Jobs</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (31).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Opportunity</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (32).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Neo Prism</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (33).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor">Success</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../Images/Carousel images/Screenshot (34).png');"></div>
+                <div class="carousel-caption">
+                    <h2 class="carosalcolor"> Hard Work</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="row">
+                <div class="col-sm-12">
+                    @Html.Partial("FooterCarousel")
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="text-align:center"><img src="~/Images/Verisign_logo.png" />&nbsp;&nbsp;<a href="https://www.uscis.gov/e-verify/employees/e-verify-overview" target="_blank"><img src="~/Images/verify_logo-fotter.png" /></a>Copyright &copy; neoprisminc.com. All Rights Reserved</p>
+
+                </div>
+            </div>
+            @*<div class="row">
+                    <div class="col-sm-12">
+                        <p style="text-align:center">
+                            <ul class="list-unstyled list-inline list-social-icons">
+                                <li>
+                                    <a href="https://www.facebook.com/Neo-Prism-Solutions-LLC-634748143274018" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/neo-prism-solutions" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/neoprismsol" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/103175624377252760810" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </p>
+
+                    </div>
+                </div>*@
+        </footer>
+
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+
+    <script>
+        $('.carousel').carousel({
+            interval: 3000 //changes the speed
+        });
+    </script>
+</body>
+</html>
